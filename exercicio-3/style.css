@@ -1,0 +1,15 @@
+body {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    color: #1e293b;
+}
+
+/* Cor do texto das listas diferente dos títulos */
+ul, ol {
+    color: #475569;
+    line-height: 1.8;
+}
