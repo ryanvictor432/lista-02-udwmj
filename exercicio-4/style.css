@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #0f172a;
+}
+
+/* Estilização do link como botão */
+.btn-custom {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    background-color: #0284c7; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    padding: 12px 24px; /* Espaçamento interno */
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse por cima */
+.btn-custom:hover {
+    background-color: #0369a1;
+}
